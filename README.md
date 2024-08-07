@@ -51,21 +51,10 @@ python nl2cli.py "your natural language instruction"
    Output: git config --global core.editor "vim"
    ```
 
-nl2cli will generate the appropriate command-line instruction tailored to your specified operating system.
+nl2cli will generate the appropriate command-line instruction tailored to your specified operating system. 
 
 ## Important Notes
 
 - Translation accuracy is contingent on the OpenAI model and the clarity of your natural language input.
-- Always review generated commands before execution, especially for system-critical operations.
-- nl2cli currently utilizes the GPT-3.5-turbo model. Stay informed about potential updates for newer models.
-
-## Troubleshooting Tips
-
-If you encounter any issues:
-1. Verify that your OpenAI API key is valid and has sufficient credits.
-2. Ensure the `config.json` file exists and contains accurate information.
-3. For reconfiguration, use the `--configure` flag as outlined in the Initial Setup section.
-
-## Responsible Usage
-
-Remember to use nl2cli responsibly and always verify the generated commands before execution. 
+- Always review generated commands before execution.
+- nl2cli is just a tool that is not always right. Be careful when executing commands that permanently changes your system like remvoe "rm -rf" of if you need sudo
