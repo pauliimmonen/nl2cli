@@ -2,19 +2,6 @@
 
 nl2cli is an innovative Python-based tool that seamlessly converts natural language instructions into precise command-line commands across various operating systems. Leveraging OpenAI's powerful GPT-3.5-turbo model, nl2cli delivers accurate and efficient command-line equivalents for user inputs.
 
-## Key Features
-
-- Intuitive and user-friendly configuration process
-- Seamless support for Windows, macOS, and Linux environments
-- Customizable for specific Linux distributions
-- Harnesses the power of OpenAI's GPT-3.5-turbo for high-accuracy translations
-
-## Prerequisites
-
-- Python 3.x
-- OpenAI Python library
-- Valid OpenAI API key
-
 ## Quick Start Guide
 
 1. Clone this repository or download the `nl2cli.py` file.
@@ -24,7 +11,7 @@ nl2cli is an innovative Python-based tool that seamlessly converts natural langu
    pip install openai
    ```
 
-3. Ensure you have a valid OpenAI API key ready for use.
+3. Ensure you have a OpenAI API key.
 
 ## Initial Setup
 
@@ -34,12 +21,7 @@ Before your first use of nl2cli, you'll need to configure it with your operating
 python nl2cli.py --configure
 ```
 
-Follow the simple prompts to:
-1. Select your operating system (Windows, macOS, or Linux)
-2. Specify your Linux distribution (if applicable)
-3. Enter your OpenAI API key
-
-Your configuration will be securely saved in a `config.json` file within the script's directory.
+Follow the given instructions.
 
 ## How to Use
 
