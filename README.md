@@ -57,4 +57,4 @@ nl2cli will generate the appropriate command-line instruction tailored to your s
 
 - Translation accuracy is contingent on the OpenAI model and the clarity of your natural language input.
 - Always review generated commands before execution.
-- nl2cli is just a tool that is not always right. Be careful when executing commands that permanently changes your system like remvoe "rm -rf" of if you need sudo
+- nl2cli is just a tool that is not always right. Be careful when executing commands that permanently changes your system like remove `rm -rf` of if you need sudo
