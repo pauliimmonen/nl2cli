@@ -18,7 +18,7 @@ nl2cli is an innovative Python-based tool that seamlessly converts natural langu
 Before your first use of nl2cli, you'll need to configure it with your operating system details and API key. The configuration process will automatically initiate on the first run, but you can also manually trigger it with:
 
 ```
-python nl2cli.py --configure
+python nl2cli.py --config
 ```
 
 Follow the given instructions.
